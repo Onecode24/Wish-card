@@ -1,2 +1,6 @@
 @import url('./tailwind.css');
-@import url('./font.css')
+@import url('./font.css');
+
+.font-fit{
+    font-size: clamp(12px, 5vw, 20px);
+}
