@@ -1,3 +1,4 @@
+import { cn } from "@/utils/cn";
 import { FC, HTMLAttributes } from "react";
 
 type EditableProps = {
@@ -8,7 +9,7 @@ type EditableProps = {
 
 const Editable : FC<EditableProps> = ({ value, editable='true',className}) => {
     return (
-        <span contentEditable={editable} className={className}  >
+        <span contentEditable={editable} className={cn('outline-none',className)}  >
             {value}
         </span>
     )
