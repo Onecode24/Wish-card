@@ -37,3 +37,11 @@
 .montserrat-light{
     font-family: 'Montserrat Light',Arial, Helvetica, sans-serif;
 }
+
+@font-face {
+    font-family: 'Adieu';
+    src: url('./fonts/Adieu-Regular.ttf');
+}
+.adieu-regular {
+    font-family: 'Adieu', Arial, Helvetica, sans-serif;
+}

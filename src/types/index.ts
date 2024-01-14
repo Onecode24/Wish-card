@@ -1,3 +1,4 @@
+import { HTMLAttributes } from "react";
 
 
 export interface GeometryProps {
@@ -6,4 +7,5 @@ export interface GeometryProps {
     color?: string;
     width?: number;
     height?: number;
+    id: HTMLAttributes<HTMLElement>["id"];
 }
